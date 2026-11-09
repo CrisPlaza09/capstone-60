@@ -1,0 +1,146 @@
+(footprint "Portapilas_2x18650"
+	(version 20240108)
+	(generator "pcbnew")
+	(generator_version "8.0")
+	(layer "F.Cu")
+	(descr "Portapilas doble 18650 Beilamoo 18650-PC4, cuerpo ~76x40 mm. Pads: 1 = A-, 2 = A+, 3 = B-, 4 = B+ (polaridad segun marcas PARALLEL). Pines de lamina a 74 mm (medido en foto, +-1 mm) y 20 mm entre celdas; slot 1.2x2.0 mm. Agujeros NPTH 3.0 mm a 54 mm: verificar con pie de metro e impresion 1:1. Origen en esquina superior izquierda del cuerpo, vista superior.")
+	(attr through_hole)
+	(property "Reference" "REF**"
+		(at 38 -2 0)
+		(layer "F.SilkS")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "Value" "Portapilas_2x18650"
+		(at 38 42 0)
+		(layer "F.Fab")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(fp_rect
+		(start 0 0)
+		(end 76 40)
+		(stroke
+			(width 0.15)
+			(type default)
+		)
+		(fill none)
+		(layer "F.SilkS")
+	)
+	(fp_rect
+		(start 0 0)
+		(end 76 40)
+		(stroke
+			(width 0.1)
+			(type default)
+		)
+		(fill none)
+		(layer "F.Fab")
+	)
+	(fp_rect
+		(start -0.5 -0.5)
+		(end 76.5 40.5)
+		(stroke
+			(width 0.05)
+			(type default)
+		)
+		(fill none)
+		(layer "F.CrtYd")
+	)
+	(fp_text user "-"
+		(at 4 6.5 0)
+		(layer "F.SilkS")
+		(effects
+			(font
+				(size 1.2 1.2)
+				(thickness 0.2)
+			)
+		)
+	)
+	(fp_text user "+"
+		(at 72 6.5 0)
+		(layer "F.SilkS")
+		(effects
+			(font
+				(size 1.2 1.2)
+				(thickness 0.2)
+			)
+		)
+	)
+	(fp_text user "-"
+		(at 4 33.5 0)
+		(layer "F.SilkS")
+		(effects
+			(font
+				(size 1.2 1.2)
+				(thickness 0.2)
+			)
+		)
+	)
+	(fp_text user "+"
+		(at 72 33.5 0)
+		(layer "F.SilkS")
+		(effects
+			(font
+				(size 1.2 1.2)
+				(thickness 0.2)
+			)
+		)
+	)
+	(pad "1" thru_hole rect
+		(at 1 10)
+		(size 2.4 3.2)
+		(drill oval 1.2 2)
+		(layers "*.Cu" "*.Mask")
+	)
+	(pad "2" thru_hole oval
+		(at 75 10)
+		(size 2.4 3.2)
+		(drill oval 1.2 2)
+		(layers "*.Cu" "*.Mask")
+	)
+	(pad "3" thru_hole oval
+		(at 1 30)
+		(size 2.4 3.2)
+		(drill oval 1.2 2)
+		(layers "*.Cu" "*.Mask")
+	)
+	(pad "4" thru_hole oval
+		(at 75 30)
+		(size 2.4 3.2)
+		(drill oval 1.2 2)
+		(layers "*.Cu" "*.Mask")
+	)
+	(pad "" np_thru_hole circle
+		(at 11 10)
+		(size 3 3)
+		(drill 3)
+		(layers "*.Cu" "*.Mask")
+	)
+	(pad "" np_thru_hole circle
+		(at 11 30)
+		(size 3 3)
+		(drill 3)
+		(layers "*.Cu" "*.Mask")
+	)
+	(pad "" np_thru_hole circle
+		(at 65 10)
+		(size 3 3)
+		(drill 3)
+		(layers "*.Cu" "*.Mask")
+	)
+	(pad "" np_thru_hole circle
+		(at 65 30)
+		(size 3 3)
+		(drill 3)
+		(layers "*.Cu" "*.Mask")
+	)
+)

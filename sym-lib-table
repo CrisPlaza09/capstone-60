@@ -1,0 +1,7 @@
+(sym_lib_table
+	(version 7)
+	(lib (name "AMS") (type "KiCad") (uri "${KIPRJMOD}/libs/symbols/AMS.kicad_sym") (options "") (descr ""))
+	(lib (name "BMS") (type "KiCad") (uri "${KIPRJMOD}/libs/symbols/BMS.kicad_sym") (options "") (descr ""))
+	(lib (name "FZ0430") (type "KiCad") (uri "${KIPRJMOD}/libs/symbols/FZ0430.kicad_sym") (options "") (descr ""))
+	(lib (name "MC00100") (type "KiCad") (uri "${KIPRJMOD}/libs/symbols/MC00100.kicad_sym") (options "") (descr ""))
+)

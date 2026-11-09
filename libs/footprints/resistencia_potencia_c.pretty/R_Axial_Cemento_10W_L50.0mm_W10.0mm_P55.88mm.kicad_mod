@@ -1,0 +1,155 @@
+(footprint "R_Axial_Cemento_10W_L50.0mm_W10.0mm_P55.88mm"
+	(version 20260206)
+	(generator "pcbnew")
+	(generator_version "10.0")
+	(layer "F.Cu")
+	(descr "Resistencia de cemento 10 W, axial horizontal, cuerpo 50 x 10 mm, paso 55.88 mm (2.2 in), agujero 1.2 mm")
+	(tags "Resistencia potencia cemento axial 10W 4.7R")
+	(property "Reference" "R**"
+		(at 27.94 -6.5 0)
+		(layer "F.SilkS")
+		(uuid "538b7113-e4c6-4cc6-a63f-add3424c7c37")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "Value" "4.7R 10W"
+		(at 27.94 6.5 0)
+		(layer "F.Fab")
+		(uuid "0365b4a6-cfa4-4c58-a817-f1dbc33e4bd0")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "Datasheet" ""
+		(at 0 0 0)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "b1f8c3b6-a128-4e3f-8a7d-f4ebd9a55f38")
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+		)
+	)
+	(property "Description" ""
+		(at 0 0 0)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "6c11869d-a129-447c-a5bf-04209467da26")
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+		)
+	)
+	(attr through_hole)
+	(duplicate_pad_numbers_are_jumpers no)
+	(fp_line
+		(start 1.44 0)
+		(end 2.82 0)
+		(stroke
+			(width 0.12)
+			(type solid)
+		)
+		(layer "F.SilkS")
+		(uuid "5674396e-f953-4362-905c-644c200aa25d")
+	)
+	(fp_line
+		(start 53.06 0)
+		(end 54.44 0)
+		(stroke
+			(width 0.12)
+			(type solid)
+		)
+		(layer "F.SilkS")
+		(uuid "a379568d-8b29-4536-b59b-cc2871ee5659")
+	)
+	(fp_rect
+		(start 2.82 -5.12)
+		(end 53.06 5.12)
+		(stroke
+			(width 0.12)
+			(type solid)
+		)
+		(fill no)
+		(layer "F.SilkS")
+		(uuid "a6c618b6-efd7-41e7-99aa-d40a7ced397c")
+	)
+	(fp_rect
+		(start -1.45 -5.5)
+		(end 57.33 5.5)
+		(stroke
+			(width 0.05)
+			(type solid)
+		)
+		(fill no)
+		(layer "F.CrtYd")
+		(uuid "f460aa54-9744-4025-bca8-78f887eb5de4")
+	)
+	(fp_line
+		(start 0 0)
+		(end 2.94 0)
+		(stroke
+			(width 0.1)
+			(type solid)
+		)
+		(layer "F.Fab")
+		(uuid "c2b00d3e-98f0-4470-91ff-2ba230fe1beb")
+	)
+	(fp_line
+		(start 52.94 0)
+		(end 55.88 0)
+		(stroke
+			(width 0.1)
+			(type solid)
+		)
+		(layer "F.Fab")
+		(uuid "35c4cfa8-c4a3-44a3-b6d6-f38a2c6bbc11")
+	)
+	(fp_rect
+		(start 2.94 -5)
+		(end 52.94 5)
+		(stroke
+			(width 0.1)
+			(type solid)
+		)
+		(fill no)
+		(layer "F.Fab")
+		(uuid "80ac5cb5-066f-4106-b381-341c70303895")
+	)
+	(fp_text user "${REFERENCE}"
+		(at 27.94 0 0)
+		(layer "F.Fab")
+		(uuid "e1634f42-d6d4-481b-9ec0-ae8f7cdc6454")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(pad "1" thru_hole rect
+		(at 0 0)
+		(size 2.4 2.4)
+		(drill 1.2)
+		(layers "*.Cu" "*.Mask")
+		(remove_unused_layers no)
+		(uuid "c1ddc115-4915-4fa5-af44-2c0e5209ea9b")
+	)
+	(pad "2" thru_hole circle
+		(at 55.88 0)
+		(size 2.4 2.4)
+		(drill 1.2)
+		(layers "*.Cu" "*.Mask")
+		(remove_unused_layers no)
+		(uuid "41c4c4fb-9be0-4ad5-af53-2e23f2fbea5f")
+	)
+	(embedded_fonts no)
+)
